@@ -7,7 +7,7 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <!-- End -->
-    <string name="file_download_percentage">%1$s de %2$s</string>
+    <string name="file_download_percentage">%1$s de %2$s (%3$s%%)</string>
     <string name="download_button">Fazer download com o WorkManager</string>
     <string name="edittext_hint">Insira ou cole um URL válido...</string>
     <string name="notes_text">Este app é um exemplo prático de download de arquivos utilizando o

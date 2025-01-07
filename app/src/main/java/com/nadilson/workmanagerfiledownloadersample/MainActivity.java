@@ -37,8 +37,10 @@ public class MainActivity extends AppCompatActivity {
 
         progressBar = findViewById(R.id.progressBar);
         progressText = findViewById(R.id.progressBarText);
-        progressText.setText(String.format(getString(R.string.file_download_percentage), MyUtils.getFormattedFileSize(this, 0),
-                MyUtils.getFormattedFileSize(this, 0)));
+        progressText.setText(String.format(getString(R.string.file_download_percentage),
+                MyUtils.getFormattedFileSize(this, 0),
+                MyUtils.getFormattedFileSize(this, 0),
+                String.valueOf(progressBar.getProgress())));
     }
 
     @Override
