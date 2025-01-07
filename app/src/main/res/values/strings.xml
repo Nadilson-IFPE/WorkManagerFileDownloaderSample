@@ -1,12 +1,18 @@
 <resources>
-    <string name="app_name">WorkManager File Downloader Sample</string>
-    <string name="action_settings">Settings</string>
+    <string name="app_name">Download com WorkManager</string>
+    <string name="action_about">Sobre</string>
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-    <string name="file_download_percentage">%1$s of %2$s</string>
+    <!-- End -->
+    <string name="file_download_percentage">%1$s de %2$s</string>
+    <string name="download_button">Fazer download com o WorkManager</string>
+    <string name="edittext_hint">Insira ou cole um URL válido...</string>
+    <string name="notes_text">Este app é um exemplo prático de download de arquivos utilizando o
+        WorkManager do Android. Você só precisa adicionar um URL válido, clicar no botão de download
+    e ver a magia diante dos seus olhos e sem comprometer os recursos do Sistema Operacional</string>
 
     <string name="lorem_ipsum">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam in scelerisque sem. Mauris
