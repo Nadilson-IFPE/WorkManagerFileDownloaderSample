@@ -11,6 +11,7 @@ import android.view.View;
 import androidx.navigation.ui.AppBarConfiguration;
 
 import com.nadilson.workmanagerfiledownloadersample.databinding.ActivityMainBinding;
+import com.nadilson.workmanagerfiledownloadersample.utils.MyUtils;
 
 import android.view.Menu;
 import android.view.MenuItem;
@@ -36,6 +37,8 @@ public class MainActivity extends AppCompatActivity {
 
         progressBar = findViewById(R.id.progressBar);
         progressText = findViewById(R.id.progressBarText);
+        progressText.setText(String.format(getString(R.string.file_download_percentage), MyUtils.getFormattedFileSize(this, 0),
+                MyUtils.getFormattedFileSize(this, 0)));
     }
 
     @Override
