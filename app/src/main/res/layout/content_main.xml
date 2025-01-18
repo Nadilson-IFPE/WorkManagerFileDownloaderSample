@@ -38,6 +38,7 @@
             android:allowUndo="true"
             android:ellipsize="end"
             android:inputType="text"
+            android:text="@string/default_url_string_for_tests"
             android:singleLine="true" />
 
     </com.google.android.material.textfield.TextInputLayout>
