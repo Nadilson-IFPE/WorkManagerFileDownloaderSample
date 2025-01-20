@@ -88,6 +88,8 @@ public class MainActivity extends AppCompatActivity {
                                                 Snackbar.make(view, "Download finalizado com sucesso!", Snackbar.LENGTH_LONG)
                                                         .setAnchorView(R.id.progressBarText)
                                                         .setAction("Action", null).show();
+                                                MyUtils.openDownloadedFile(MainActivity.this, MyConstants.APP_DOWNLOAD_PATH +
+                                                        MyUtils.extractFilename(String.valueOf(textInputEditText.getText())));
                                             } else if (workInfo.getState() == WorkInfo.State.FAILED) {
                                                 Snackbar.make(view, "Falha ao realizar o download do arquivo!", Snackbar.LENGTH_LONG)
                                                         .setAnchorView(R.id.progressBarText)
